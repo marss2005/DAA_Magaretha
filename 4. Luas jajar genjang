@@ -14,17 +14,3 @@ Tentukan algoritma dan pseudocode luas jajar genjang (panjang = 5, tinggi = 3)
 •luas = panjang*tinggi
 •write(luas)
 •return 0
-
-//Ini Kode Program
-# No 4= luas jajar genjang (panjang = 5, tinggi = 3)
-
-# Deklarasi variabel
-luas = 0
-alas = 5
-tinggi = 3
-
-# Menghitung luas jajar genjang
-luas = alas * tinggi
-
-# Menampilkan luas
-print("Luas jajar genjang:", luas)
