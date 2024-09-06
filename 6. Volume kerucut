@@ -16,19 +16,3 @@ Tentukan algoritma dan pseudocode volume kerucut (diameter = 5, tinggi = 4)
 •volume = luas*tinggi/3
 •write(volume)
 •return 0
-
-
-//Ini Kode Program
-# No 6= volume kerucut (diameter = 5, tinggi = 4)
-
-# Deklarasi variabel
-volume = 0
-diameter = 5
-jari_jari = 2.5
-tinggi = 4
-
-# Menghitung volume kerucut
-volume = (1/3) * diameter * jari_jari * jari_jari * tinggi
-
-# Menampilkan volume
-print("Volume kerucut:", volume)
