@@ -1,0 +1,54 @@
+Algoritma:
+Step 1 definisikan swap dengan nilai x dan y.
+Step 2 nyatakan buffer sama dengan x, nilai buffer menjadi nilai x, dan x menjadi 0.
+Step 3 saat x menjadi 0, nyatakan x sama dengan y, nilai x menjadi nilai y, dan nilai y menjadi 0.
+Step 4 saat y menjadi 0, nyatakan y sama dengan buffer, nilai y menjadi nilai x, dan nilai buffer menjadi 0.
+
+Pseudocode: 
+	define swap(x,y)
+		
+	manggis = x
+	pisang  = y
+	piring 3 = buffer
+
+	buffer = x 
+	x = y
+	y = buffer
+
+	return 0
+
+
+"""
+----------  Ini Cara lain  ------------
+Algoritma:
+Tahap 1: Cek apakah piring 1 berisi pisang dan piring 2 berisi manggis? Jika ya, maka program selesai. Jika tidak, lanjut ke tahap 2
+Tahap 2: Pindahkan pisang dari piring 2 ke piring 3
+Tahap 3: Pindahkan manggis dari piring 1 ke piring 2
+Tahap 4: Pindahkan pisang dari piring 3 ke piring 1
+Tahap 5: Kembali ke tahap 1
+
+Psuedocode:
+while (p1 != pisang and p2 != manggis)
+p3 -> pisang
+p2 -> manggis
+p1 -> p3
+return p1 and p2
+---------------------------------------
+"""
+
+//Ini Kode Program
+# No 2= Fungsi untuk menukar posisi dua variabel x dan y
+
+def swap(x, y):
+    buffer = x
+    x = y
+    y = buffer
+    return x, y
+
+# Contoh penggunaan fungsi swap
+x = 5
+y = 10
+x, y = swap(x, y)
+print("Setelah ditukar:")
+print("x:", x)
+print("y:", y)
