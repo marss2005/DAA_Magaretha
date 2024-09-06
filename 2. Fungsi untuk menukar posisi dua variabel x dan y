@@ -17,8 +17,6 @@ Pseudocode:
 
 	return 0
 
-
-"""
 ----------  Ini Cara lain  ------------
 Algoritma:
 Tahap 1: Cek apakah piring 1 berisi pisang dan piring 2 berisi manggis? Jika ya, maka program selesai. Jika tidak, lanjut ke tahap 2
@@ -33,22 +31,3 @@ p3 -> pisang
 p2 -> manggis
 p1 -> p3
 return p1 and p2
----------------------------------------
-"""
-
-//Ini Kode Program
-# No 2= Fungsi untuk menukar posisi dua variabel x dan y
-
-def swap(x, y):
-    buffer = x
-    x = y
-    y = buffer
-    return x, y
-
-# Contoh penggunaan fungsi swap
-x = 5
-y = 10
-x, y = swap(x, y)
-print("Setelah ditukar:")
-print("x:", x)
-print("y:", y)
