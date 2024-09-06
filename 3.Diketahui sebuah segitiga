@@ -1,0 +1,34 @@
+Diketahui sebuah segitiga memiliki ukuran sebagai berikut:
+Alas 25
+Tinggi 30
+Hitung luas dari segitiga tersebut.
+
+-ALGORITMA
+•Step 1 Mendeklarasikan luas, alas, dan tinggi
+•Step 2 Masukan alas = 25, tinggi = 30
+•Step 3 Menghitung luas = alas*tinggi/2
+•Step 4 Menampilkan luas
+
+-PSEUDOCODE
+•deklarasi
+•var luas, alas, tinggi
+•alas = 25
+•tinggi = 30
+•luas = alas*tinggi/2
+•write(luas)
+•return 0
+
+
+//Ini Kode Program
+# No 3= Hitung luas dari segitiga: Alas 25, Tinggi 30
+
+# Deklarasi variabel
+luas = 0
+alas = 25
+tinggi = 30
+
+# Menghitung luas segitiga
+luas = 0.5 * alas * tinggi
+
+# Menampilkan luas
+print("Luas segitiga:", luas)
