@@ -17,18 +17,3 @@ Hitung luas dari segitiga tersebut.
 •luas = alas*tinggi/2
 •write(luas)
 •return 0
-
-
-//Ini Kode Program
-# No 3= Hitung luas dari segitiga: Alas 25, Tinggi 30
-
-# Deklarasi variabel
-luas = 0
-alas = 25
-tinggi = 30
-
-# Menghitung luas segitiga
-luas = 0.5 * alas * tinggi
-
-# Menampilkan luas
-print("Luas segitiga:", luas)
