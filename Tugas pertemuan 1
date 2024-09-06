@@ -1,0 +1,15 @@
+# Meminta input dua bilangan bulat dari pengguna
+try:
+    num1 = int(input("Masukkan bilangan bulat pertama: "))
+    num2 = int(input("Masukkan bilangan bulat kedua: "))
+
+    # Membandingkan kedua bilangan
+    if num1 > num2:
+        print(f"Bilangan yang lebih besar adalah: {num1}")
+    elif num2 > num1:
+        print(f"Bilangan yang lebih besar adalah: {num2}")
+    else:
+        print(f"Kedua bilangan sama besar: {num1} dan {num2}")
+
+except ValueError:
+    print("Input harus berupa bilangan bulat.")
