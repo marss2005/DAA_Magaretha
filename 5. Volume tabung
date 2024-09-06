@@ -16,23 +16,3 @@ Tentukan algoritma dan pseudocode volume tabung (jari-jari = 3, tinggi = 5)
 •volume = luas*tinggi
 •write(volume)
 •return 0
-
-
-//Ini Kode Program
-# No 5= volume tabung (jari-jari = 3, tinggi = 5)
-
-# Deklarasi variabel
-volume = 0
-luas = 0
-jari_jari = 3
-tinggi = 5
-pi = 3.14159265359  # Anda bisa menggunakan nilai pi sesuai dengan kebutuhan
-
-# Menghitung luas tabung
-luas = pi * jari_jari * jari_jari
-
-# Menghitung volume tabung
-volume = luas * tinggi
-
-# Menampilkan volume
-print("Volume tabung:", volume)
