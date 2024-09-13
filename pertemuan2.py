@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1cvfjGwzhkfSy-8k64FZE70EL4V9lsdse
 """
 
-#latihan 1
+#1
 import numpy as np
 
 # membuat array
@@ -16,29 +16,27 @@ nilai_siswa = np.array([85, 55, 40, 90])
 # mengakses data pada array
 print(nilai_siswa[3])
 
-#Latihan 2
+#2
 print("Hello World!")
 print("Nama saya Magaretha Corliss")
 print("NIM saya 2023071031")
 
-#Latihan 3
+#3
 if 5 > 2:
     print("Five is greater than two!")
 
-#Latihan 4
+#4
 x = 5
 y = "John"
 print(x)
 print(y)
 
-#Latihan 5
+#5
 x = 4
 x = "Sally"
 print(x)
 
-
-
-#Latihan 6
+#6
 mylist = [3,2,1]
 
 getFirst = mylist[0]
@@ -47,7 +45,7 @@ getSecond = mylist[1]
 print(getFirst)
 print(getSecond)
 
-#Latihan 7
+#7
 mylist = [3,2,1]
 
 getFirst = mylist[0]
@@ -56,7 +54,7 @@ getLast = mylist[2]
 print(getFirst)
 print(getLast)
 
-#Latihan 8
+#8
 mylist = [3, 2, 1]
 
 getKali = 1
